@@ -14,17 +14,19 @@ By addressing these objectives, the Profile Page Project aims to redefine the wa
 
 # Features
 
-User Profile Management: Save and manage user profiles with features including linking avatars, emails, names, numbers, etc.
-Editing Capabilities: Edit and update user information to keep profiles up-to-date.
-Mobile Compatibility: Accessible and optimized for mobile usage.
-Security Measures: Registration form and authentication restrict unauthorized access. Users are provided with tokens and access levels for controlled data access.
-CRUD Operations: Full CRUD manipulation support for user profiles.
-Asynchronous Searching: Efficiently search through user profiles asynchronously.
-Technologies Used
+* User Profile Management: Save and manage user profiles with features including linking avatars, emails, names, numbers, etc.
+* Editing Capabilities: Edit and update user information to keep profiles up-to-date.
+* Responsive Design: Ensure optimal user experience across devices with responsive design principles.
+* Security Measures: Implement secure authentication and authorization with JSON Web Tokens (JWT) for protected resource access. Assign roles (such as user or admin) based on authorization status.
+* CRUD Operations: Full CRUD manipulation support for user profiles.
+* Asynchronous Searching: Enhance interactivity and responsiveness with AJAX and Fetch API for asynchronous HTTP requests.
+
+# Technologies Used
 
 * Backend: Flask framework for server-side operations.
 * Frontend: Utilizes HTML, CSS, Bootstrap for styling, and JavaScript for dynamic functionalities.
 * Asynchronous Operations: AJAX and Fetch API for asynchronous requests.
+* Authentication: JSON Web Tokens (JWT)
 * Data Handling: JSON for data storage and manipulation.
 * Templating: Jinja for templating in Flask.
 * Library: jQuery for enhanced JavaScript functionality.
