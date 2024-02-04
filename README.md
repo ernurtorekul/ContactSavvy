@@ -29,7 +29,7 @@ Technologies Used
 * Templating: Jinja for templating in Flask.
 * Library: jQuery for enhanced JavaScript functionality.
 
-* License
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
