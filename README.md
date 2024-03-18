@@ -4,7 +4,7 @@
 The inspiration behind the Profile Page Project stemmed from the mundane process of saving contacts on smartphones and laptops. Traditional methods often felt tedious and lacked personalization. As someone who values efficiency and aesthetics, I sought to revolutionize this experience by developing a modern, web-based contact saver solution.
 
 # Project Overview
-The "Profile Page" web application is designed to offer users a refreshing alternative to conventional contact management systems. Through intuitive design and robust functionality, users can seamlessly organize and access their contacts with ease. The project prioritizes user experience, incorporating features that empower individuals to customize their contact profiles while ensuring mobile compatibility for on-the-go convenience.
+The "ContactSavvy" web application is designed to offer users a refreshing alternative to conventional contact management systems. Through intuitive design and robust functionality, users can seamlessly organize and access their contacts with ease. The project prioritizes user experience, incorporating features that empower individuals to customize their contact profiles while ensuring mobile compatibility for on-the-go convenience.
 
 # Key Objectives
 * Enhanced User Experience: Replace mundane contact management processes with an intuitive and visually appealing interface.
