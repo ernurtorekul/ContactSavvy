@@ -13,13 +13,14 @@
         <h1 class="users_title">Profiles</h1>
         <a id="add_user" href="{{url_for('add_user')}}" class="btn btn-primary">Add user</a>
         <a id="log_out" href="{{url_for('main')}}" class="btn btn-primary">Log out</a>
-        <div class="container-fluid search">
+
+        <div class="container-fluid search" id="searchContainer" >
             <form class="d-flex" role="search" onsubmit="handleSearch(); return false;">
             <input class="form-control me-2" type="search" id="searchInput" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline" type="button" onclick="handleSearch()">Search</button>
             </form>
         </div>
-        <div id="user-list"></div>
+        <div class="hidden" id="user-list"></div>
 
 
 

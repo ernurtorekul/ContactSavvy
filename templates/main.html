@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>Registration</title>
+      
 </head>
 <body>
     {% with messages = get_flashed_messages() %}
@@ -21,7 +22,7 @@
 
 
     <div class="container">
-        <h1 class="users_title">Welcome to profiles page</h1>
+        <h1 class="users_title">Welcome to ContactSavvy</h1>
         <div class="main">
             <a href="{{ url_for('registration') }}"><button type="button" class="btn btn-primary">Register</button></a>
             <a href="{{ url_for('authentication') }}"><button type="button" class="btn btn-primary">Login</button></a>

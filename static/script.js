@@ -1,6 +1,6 @@
 'use strict'
 
-// starting from ajax ( async code ) other all functions working only with flask but this one is not the case
+// starting from ajax ( async code ) all other functions works only with flask but this one is not the case
 
 const usersContainer = $('#usersContainer');
 const searchInput = $('#searchInput');
@@ -62,9 +62,30 @@ function handleSearch() {
     fetchUserData(function (allUsers) {
         const filteredUsers = allUsers.filter(user => user.username.toLowerCase().includes(searchTerm));
         updateUI(filteredUsers);
+        $('#user-list').removeClass('hidden')
     });
+
+    $('#searchContainer').show();
+
 }
+
+$(document).on('click', function(event) {
+    // Check if the clicked element is not the search input or its container
+    if (!$(event.target).closest('.container-fluid.search').length && !$(event.target).is('#searchInput')) {
+        // Hide the user-list container
+        $('#user-list').addClass('hidden');
+    }
+});
+
+
 searchInput.on('input', handleSearch);
+
+// Add event listener to show search container when search input is focused
+// searchInput.focus(function() {
+//     $('#searchContainer').show();
+// });
+
+
 
 // using fetch data.json 
 fetch('/static/data.json')

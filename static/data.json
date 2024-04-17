@@ -34,5 +34,23 @@
     "username": "js mockdsa",
     "email": "",
     "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jared_Leto%2C_San_Diego_Comic_Con_2016_%282%29_%28cropped%29.jpg/640px-Jared_Leto%2C_San_Diego_Comic_Con_2016_%282%29_%28cropped%29.jpg"
+  },
+  {
+    "id": 7,
+    "username": "flask",
+    "email": "tobidsa@gmail.com",
+    "photo": "https://w7.pngwing.com/pngs/166/342/png-transparent-flask-python-bottle-web-framework-web-application-flask-white-monochrome-shoe.png"
+  },
+  {
+    "id": 8,
+    "username": "final",
+    "email": "final@dsa.dsa",
+    "photo": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"
+  },
+  {
+    "id": 9,
+    "username": "grokking algs",
+    "email": "gork@mail.ru",
+    "photo": "https://res.cloudinary.com/practicaldev/image/fetch/s--1gOmZL5V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://miro.medium.com/max/875/1%2A0UxD1ZjXKSq268l8zuTK6g.png"
   }
 ]
